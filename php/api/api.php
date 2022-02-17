@@ -1,6 +1,6 @@
 <?php
 
-require_once __DIR__ . "/data.php";
+require_once __DIR__ . "/../db/data.php";
 
 header("Content-Type: application/json");
 
