@@ -24,11 +24,11 @@
             
             <div class="img-container" v-for="disc in discList">
                 <img :src='disc.poster'>  
-                <h3>{{disc.title}}</h3>
+                <h3>{{disc.title.toUpperCase()}}</h3>
                 <div class="info">{{disc.author}}</div>
                 <div class="info">{{disc.year}}</div>
             </div>
-            <!-- .toUpperCase() -->
+            
         </div>
 
     </div>
